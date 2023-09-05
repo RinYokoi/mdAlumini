@@ -27,7 +27,7 @@ function clickButton() {
         // それ以外の場合
         else {
           // 指定したHTMLの中身を書き換える
-          $(".outputText1").text("曜日を入力してね！");
+          $(".outputText1").text("Enter Correct Name...It's still case sensitive, Sorry!");
           $(".outputText2").text("");
           $(".outputText3").text("");
           $(".outputText4").text("");
