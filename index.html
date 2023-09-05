@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Bread Search</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Stoke|Yellowtail|Geo|Oswald|Lobster" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+</head>
+
+<!-- 検索ボックス -->
+<div class="searchBox">
+  <h1>Alumini Search</h1>
+
+  <!-- 入力欄 -->
+  <div class="inputBox">
+    <h3>Put full name of alumini</h3>
+    <h4>(Currently available names)<p>Doug Alberts, Kaishin Qiu, Josh Young, Steven Dvornik, 
+    Sol Bourdeau Garcia, Kyuri Kim, Izzy Dennis, Kiara Harris, Sabrina Swanson</h4>
+    <input type="text" class="inputText">
+    <input type="button" value="Click" class="inputButton" onclick="clickButton()">
+  </div><!-- /.inputBox -->
+
+  <!-- 出力欄 -->
+  <div class="outputBox">
+    <h2>Results</h2>
+
+    <!-- 表 -->
+    <table>
+      <tr>
+        <th>Name</th>
+        <td class="outputText1"></td>
+      </tr>
+      <tr>
+        <th>Year</th>
+        <td class="outputText2"></td>
+      </tr>
+      <tr>
+        <th>Website</th>
+        <td class="outputText3"></td>
+      </tr>
+      <tr>
+        <th>Current Work</th>
+        <td class="outputText4"></td>
+      </tr>
+      <tr>
+        <th>Contact</th>
+        <td class="outputText5"></td>
+      </tr>
+    </table>
+
+  </div><!-- /.outputBox -->
+
+</div><!-- /.searchBox -->
+
+<!-- JavaScriptと連携する -->
+<script src="script.js"></script>
